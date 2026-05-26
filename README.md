@@ -10,6 +10,7 @@ A database created to simulate a BDMS with Docker, DML &amp; DDL for the Midterm
 #SET UP
 Open Docker console & write the Next: (You can change "JhojanM" with a name that you want)
 > docker run --name JhojanM -e POSTGRES_USER=ulimar -e POSTGRES_PASSWORD=ex4men_db -p 5432:5432 postgres:14
+
 > docker run --rm -p 5050:80 -e "PGADMIN_DEFAULT_EMAIL=usuario@servilimar.com" -e "PGADMIN_DEFAULT_PASSWORD=limar#123" dpage/pgadmin4
 
 Acces pgAdmin -> http://localhost:5050
