@@ -19,7 +19,7 @@ Acces pgAdmin -> http://localhost:5050
 Email: usuario@servilimar.com
 Password: limar#123
 
-Register a new server and paste or create the DDL in QUERY TOOL (THE TABLES)
+Register a new server (Connection -> Host name/address = host.docker.internal) and paste or create the DDL in QUERY TOOL (THE TABLES) 
 
 -ciudad
 -usuario
